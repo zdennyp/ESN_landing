@@ -1,0 +1,60 @@
+body, 
+html { 
+    height: 100%;
+    background: url(cover.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+  h1 { 
+    color: #000000;
+  }
+  
+  .backgroundh1 {
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.row {
+  width: 100%;
+}
+
+.image {
+  width: 17%;
+  height: auto;
+  position: absolute;
+  bottom: 5%;
+  right: 9%;
+}
+
+.buffer {
+  height: 3rem;
+}
+
+.form-check-input {
+  margin: 5px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+.btn-color {
+    background-color: brown;
+    border-color: white;
+}
+.btn-color:hover {
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
